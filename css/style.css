@@ -1,0 +1,21 @@
+.debug {
+  background-color: rgba(165, 42, 42, 0.288);
+}
+
+
+header {
+  height: 80px;
+}
+
+
+.jumbotron {
+  height: 500px;
+  background-color: aquamarine;
+  margin-bottom: 50px;
+}
+
+
+
+div[class^="col"] {
+  height: 100px;
+}
