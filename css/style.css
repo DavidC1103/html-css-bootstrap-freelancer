@@ -12,28 +12,38 @@ header {
   background-color: #2C3E50;
 }
 
-.about{
-  background-color: #1ABC9C;
+.image img{
+  width: 100%;
 }
+
+/*JUMBOTRON*/
 .jumbotron {
   background-color: #1ABC9C;
 }
 
+.jumbotron h1{
+  font-size: 55px;
+}
 
 .jumbotron img{
   height: 200px;
 }
 
 .jumbotron i::before{
-
-
-}
-
-.image img{
-  width: 100%;
+  
+  
 }
 
 
+/*-----------------------------------*/
+
+.about{
+  background-color: #1ABC9C;
+}
+
+
+
+/*CONTACT*/
 .ms-form input, .ms-form textarea{
   border-left: none;
   border-top: none;
@@ -55,4 +65,27 @@ header {
 .ms-form input:focus,
 .ms-form textarea:focus{
   box-shadow: 0 1px 0 0 rgba(13,110,253,.25);
+}
+
+
+
+/*FOOTEER*/
+
+.text-color{
+  color: #1ABC9C;
+}
+
+.footer-top{
+  background-color:#3A546D;
+}
+
+.footer-bottom{
+  background-color: #2C3E50;
+}
+
+.footer-top i{
+  border: 1px solid white;
+}
+footer span{
+  font-size: 20px;
 }
