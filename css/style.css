@@ -2,20 +2,57 @@
   background-color: rgba(165, 42, 42, 0.288);
 }
 
+body{
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode',
+   'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
 
 header {
   height: 80px;
+  background-color: #2C3E50;
 }
 
-
+.about{
+  background-color: #1ABC9C;
+}
 .jumbotron {
-  height: 500px;
-  background-color: aquamarine;
-  margin-bottom: 50px;
+  background-color: #1ABC9C;
 }
 
 
+.jumbotron img{
+  height: 200px;
+}
 
-div[class^="col"] {
-  height: 100px;
+.jumbotron i::before{
+
+
+}
+
+.image img{
+  width: 100%;
+}
+
+
+.ms-form input, .ms-form textarea{
+  border-left: none;
+  border-top: none;
+  border-right: none;
+  border-radius: 0;
+  padding-left: 0;
+}
+
+.ms-form input::placeholder, 
+.ms-form textarea::placeholder{
+  color: rgb(63, 63, 63);
+}
+
+.ms-form button{
+  background: #1ABC9C;
+  border: none;
+}
+
+.ms-form input:focus,
+.ms-form textarea:focus{
+  box-shadow: 0 1px 0 0 rgba(13,110,253,.25);
 }
