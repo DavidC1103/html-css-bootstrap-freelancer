@@ -29,34 +29,54 @@ header {
   height: 200px;
 }
 
-/* da fixare
-.jumbotron i{
 
+
+.star i{
+  vertical-align: middle;
 }
 
-.jumbotron i:before{
+
+/*LINEE LATERALI STELLA*/
+.line:before{
   
   content: '';
   display: inline-block;
-  width: 180px;
-  height: 5px;
+  width: 10%;
+  height: 3px;
   background-color: white;
   border-radius: 20px;
-  padding-right: 20px;
   
 }
 
-.jumbotron i:after{
+.line:after{
   
   content: '';
   display: inline-block;
-  width: 180px;
-  height: 5px;
+  width: 10%;
+  height: 3px;
   background-color: white;
   border-radius: 20px;
-  padding-right: 20px;
 }
-*/
+.line-b:before{
+  
+  content: '';
+  display: inline-block;
+  width: 10%;
+  height: 3px;
+  background-color: black;
+  border-radius: 20px;
+  
+}
+
+.line-b:after{
+  
+  content: '';
+  display: inline-block;
+  width: 10%;
+  height: 3px;
+  background-color:black;
+  border-radius: 20px;
+}
 
 /*-----------------------------------*/
 
